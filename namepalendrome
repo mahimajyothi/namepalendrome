@@ -1,0 +1,28 @@
+package practice;
+import java.util.Scanner;
+public class Namepalendrome {
+
+	public static void main(String[] args) {
+	
+        Scanner sc=new Scanner(System.in);
+       
+		System.out.println("Enter your name");
+		
+		 String name = sc.next();
+		 
+		 
+		StringBuffer sb=new StringBuffer(name);
+		if(name.equals(sb.reverse().toString()))
+		{
+			System.out.println("you are welcome");
+		}
+		else
+		{
+			System.out.println("you are not lucky user");
+		}
+
+	}
+
+	}
+
+
